@@ -8,8 +8,8 @@ plugin with some Mapserver/Mapfile editing features
 * Milestone 1: ordinary keyword highlighting
 * Milestone 2: color preview/chooser for COLOR and BACKGROUNDCOLOR settings
 * Milestone 3: Autocomplete
-* Milestone 4: Schema errors like two WEB sections, duplicated layer names
-* Milestone 4: Warnings, Autofixes
+* Milestone 4: Schema errors like two WEB sections, duplicated layer names, incorrect scale denominations
+* Milestone 5: Warnings, Autofixes
 
 ### possible solutions
 
@@ -27,6 +27,8 @@ https://www.jetbrains.com/mps/
 
 ## WMS live-editing-preview
 
+In general a preview area appears right beside the Mapfile text. Like we know it from a [Markdown plugin](https://github.com/vsch/idea-multimarkdown#rogues-gallery-of-features)
+
 precondition: Mapserver is running on http://localhost and configured in IDEA
 
 * Milestone 1: GetCapabilities preview
@@ -38,8 +40,7 @@ precondition: Mapserver is running on http://localhost and configured in IDEA
 
 1. configure running Mapserver URL via plugin settings dialog
 2. configure target WMS version (and other settings) via plugin settings dialog
-3. fire target request after every Mapfile modification
-4. editing 
+3. fire target request after every Mapfile modification 
 
 ### possible traps
 
@@ -52,6 +53,7 @@ precondition: Mapserver is running on http://localhost and configured in IDEA
 
 * Milestone 1: GetCapabilities preview
 * Milestone 2: DescribeFeatureType preview
+* ..
 
 ### possible solutions
 
