@@ -26,7 +26,8 @@ on the other hand there are enough Mapfile syntax highlighting addons for some e
 
 :bomb::bomb::bomb: **Enough said**<br/>
 :bomb::bomb::boom: **It's time to fill that gap!**<br/> 
-:boom::boom::boom: We need Mapfile editing support within our favorite platform independent IDE: IntelliJ 
+:bomb::boom::boom: We need Mapfile editing support within our favorite platform independent IDE<br/>
+:boom::boom::boom: IntelliJ
 
 ## Mapfile language support
 
