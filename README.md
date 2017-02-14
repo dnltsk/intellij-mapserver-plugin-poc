@@ -3,6 +3,30 @@
 plugin with some Mapserver/Mapfile editing features
 [http://www.mapserver.org](http://www.mapserver.org)
 
+With Mapserver you can offer spatial data with styles via standardized 
+[Web Map Services (WMS)](https://en.wikipedia.org/wiki/Web_Map_Service), 
+[Web Feature Services (WFS)](https://en.wikipedia.org/wiki/Web_Feature_Service) and other [OGC standards](http://www.mapserver.org/ogc/) 
+
+A Mapserver instance is configured via Mapfile which has a very expressive Syntax.
+
+## Motivation
+
+On the one hand there are some Mapfile editor programs around which are mostly platform dependent (Windows) and outdated
+* [MapManager](https://github.com/DMS-Aus/MapManager) Windows only
+* [mscompanion](https://code.google.com/archive/p/mscompanion/) outdated WYSIWYG & Windows only
+* [MapFile-Generator](https://github.com/jbelien/MapFile-Generator) great to bootstrap a Mapfile
+* and [many more..](https://github.com/mapserver/mapserver/wiki/MapFile-editors)
+  
+on the other hand there are enough Mapfile syntax highlighting addons for some editors which are _mostly_ outdated and _just_ highlight the keywords:
+* [Emacs](https://github.com/AxxL/mapserver-emacs-mode) quite up-to-date!
+* [VIM](http://www.mapserver.org/development/editing/vim.html) outdated!
+* [Notepad++ & Geany](https://github.com/AstunTechnology/MapserverSyntaxHighlighting) 
+* [TextPad](http://www.textpad.com/add-ons/synh2m.html) outdated
+
+
+:bomb::bomb::bomb: Enough said - It's time to fill the gap! :boom::boom::boom:<br/>
+Let's create some Mapfile editing support within out favorite platform independent IDE: IntelliJ 
+
 ## Mapfile language support
 
 * Milestone 1: ordinary keyword highlighting
