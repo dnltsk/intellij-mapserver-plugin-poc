@@ -24,8 +24,8 @@ on the other hand there are enough Mapfile syntax highlighting addons for some e
 * [TextPad](http://www.textpad.com/add-ons/synh2m.html) outdated
 
 
-:bomb::bomb::bomb: Enough said - It's time to fill the gap! :boom::boom::boom:<br/>
-Let's create some Mapfile editing support within out favorite platform independent IDE: IntelliJ 
+:bomb::bomb::bomb: **Enough said :bomb::bomb::boom: It's time to fill that gap!** :boom::boom::boom:<br/>
+We need Mapfile editing support within our favorite platform independent IDE: IntelliJ 
 
 ## Mapfile language support
 
