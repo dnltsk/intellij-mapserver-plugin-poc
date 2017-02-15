@@ -1,6 +1,8 @@
 #IntelliJ Mapserver Plugin (Proof of Concept)
 
-plugin with some Mapserver/Mapfile editing features
+**current status: brainstorming, idea pitching, effort estimation, ...**
+
+plugin with some Mapserver/Mapfile editing features<br/>
 [http://www.mapserver.org](http://www.mapserver.org)
 
 With Mapserver you can offer spatial data with styles via standardized 
