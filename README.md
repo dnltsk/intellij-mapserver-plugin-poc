@@ -36,8 +36,9 @@ on the other hand there are enough Mapfile syntax highlighting addons for some e
 * Milestone 1: ordinary keyword highlighting
 * Milestone 2: color preview/chooser for COLOR and BACKGROUNDCOLOR settings
 * Milestone 3: Autocomplete
-* Milestone 4: Schema errors like two WEB sections, duplicated layer names, incorrect scale denominations
-* Milestone 5: Warnings, Autofixes
+* Milestone 4: Brief info (Ctrl+mouse): open browser and navigate to correct section; open Shapefile/Geotiff in QGIS  
+* Milestone 5: Schema errors like two WEB sections, duplicated layer names, incorrect scale denominations
+* Milestone 6: Warnings, Autofixes
 
 ### possible solutions
 
