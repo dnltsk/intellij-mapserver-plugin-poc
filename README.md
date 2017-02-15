@@ -22,7 +22,7 @@ On the one hand there are some Mapfile editor programs around which are mostly p
 on the other hand there are enough Mapfile syntax highlighting addons for some editors which are _mostly_ outdated and _just_ highlight the keywords:
 * [Emacs](https://github.com/AxxL/mapserver-emacs-mode) quite up-to-date!
 * [VIM](http://www.mapserver.org/development/editing/vim.html) outdated!
-* [Notepad++ & Geany](https://github.com/AstunTechnology/MapserverSyntaxHighlighting) 
+* [Notepad++ & Geany](https://github.com/AstunTechnology/MapserverSyntaxHighlighting) outdated! 
 * [TextPad](http://www.textpad.com/add-ons/synh2m.html) outdated
 
 
