@@ -2,77 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1a9d760-d6f1-44d4-9bd7-c83dd1a5b38c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/simpleplugin/icons/jar-gray.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gen/com/simpleplugin/parser/SimpleParser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gen/com/simpleplugin/psi/SimpleProperty.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gen/com/simpleplugin/psi/SimpleTypes.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gen/com/simpleplugin/psi/SimpleVisitor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gen/com/simpleplugin/psi/impl/SimplePropertyImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/intellij-mapserver-plugin-poc.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/META-INF/plugin.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/simpleplugin/CreatePropertyQuickFix.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/simpleplugin/Simple.bnf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/simpleplugin/Simple.flex" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/simpleplugin/SimpleAnnotator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/simpleplugin/SimpleBlock.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/simpleplugin/SimpleChooseByNameContributor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/simpleplugin/SimpleCodeStyleSettings.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/simpleplugin/SimpleCodeStyleSettingsProvider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/simpleplugin/SimpleColorSettingsPage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/simpleplugin/SimpleCommenter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/simpleplugin/SimpleCompletionContributor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/simpleplugin/SimpleFileType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/simpleplugin/SimpleFileTypeFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/simpleplugin/SimpleFilterLexer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/simpleplugin/SimpleFindUsagesProvider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/simpleplugin/SimpleFoldingBuilder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/simpleplugin/SimpleFormattingModelBuilder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/simpleplugin/SimpleIcons.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/simpleplugin/SimpleIdIndexer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/simpleplugin/SimpleLanguage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/simpleplugin/SimpleLanguageCodeStyleSettingsProvider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/simpleplugin/SimpleLexer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/simpleplugin/SimpleLexerAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/simpleplugin/SimpleLineMarkerProvider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/simpleplugin/SimpleParserDefinition.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/simpleplugin/SimpleRefactoringSupportProvider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/simpleplugin/SimpleReference.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/simpleplugin/SimpleReferenceContributor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/simpleplugin/SimpleStructureViewElement.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/simpleplugin/SimpleStructureViewFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/simpleplugin/SimpleStructureViewModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/simpleplugin/SimpleSyntaxHighlighter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/simpleplugin/SimpleSyntaxHighlighterFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/simpleplugin/SimpleTodoIndexer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/simpleplugin/SimpleUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/simpleplugin/psi/SimpleElementFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/simpleplugin/psi/SimpleElementType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/simpleplugin/psi/SimpleFile.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/simpleplugin/psi/SimpleNamedElement.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/simpleplugin/psi/SimpleTokenType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/simpleplugin/psi/impl/SimpleNamedElementImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/simpleplugin/psi/impl/SimplePsiImplUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testData/AnnotatorTestData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testData/CompleteTestData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testData/DefaultTestData.simple" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testData/FindUsagesTestData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testData/FindUsagesTestData.simple" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testData/FoldingTestData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testData/FormatterTestData.simple" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testData/ParsingTestData.simple" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testData/ParsingTestData.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testData/ReferenceTestData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testData/RenameTestData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testData/RenameTestData.simple" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testData/RenameTestDataAfter.simple" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/com/simpleplugin/SimpleCodeInsightTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/com/simpleplugin/SimpleParsingTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -207,6 +138,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="META-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="intellij-mapserver-plugin-poc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="intellij-mapserver-plugin-poc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".idea" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -772,16 +717,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1490913672879</updated>
-      <workItem from="1490913674575" duration="237000" />
+      <workItem from="1490913674575" duration="342000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit (SimpleLanguage)">
+      <created>1490913953762</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1490913953762</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="237000" />
+    <option name="totallyTimeSpent" value="342000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="58" width="1440" height="828" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -799,7 +751,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -821,6 +773,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit (SimpleLanguage)" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit (SimpleLanguage)" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -835,6 +791,17 @@
         <state relative-caret-position="225">
           <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
