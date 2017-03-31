@@ -1,4 +1,4 @@
-#IntelliJ Mapserver Plugin (Proof of Concept)
+# IntelliJ Mapserver Plugin (Proof of Concept)
 
 **current status: brainstorming, idea pitching, effort estimation, ...**
 
