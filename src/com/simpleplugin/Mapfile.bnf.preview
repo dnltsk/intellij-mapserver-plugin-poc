@@ -1,0 +1,6 @@
+MAP 
+    LAYER
+        NAME 'foo' #Huhu
+        TITLE 'bar'
+    END
+END
