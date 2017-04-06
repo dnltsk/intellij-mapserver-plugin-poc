@@ -33,13 +33,15 @@ mapfile ::= (MapObject | LayerObject)
 //
 // MAP
 //
-private MapObject ::= ('MAP' LayerObject* 'END')
-
+private MapObject ::= ('MAP' MapAttributes 'END')
+private MapAttributes ::= ( NameAttr | TitleAttr | LayerObject ) MapAttributes *
 
 //
 // LAYER
 //
-private LayerObject ::= ('LAYER' ( NameAttr | TitleAttr ) 'END')
+private LayerObject ::= 'LAYER' LayerAttributes 'END'
+private LayerAttributes ::= ( NameAttr | TitleAttr ) LayerAttributes *
+
 
 
 //
