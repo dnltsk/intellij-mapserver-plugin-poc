@@ -39,10 +39,9 @@
     <!-- Add your extensions here -->
     <fileTypeFactory implementation="org.dnltsk.mapfileplugin.MapfileFileTypeFactory"/>
     <lang.parserDefinition language="Mapfile" implementationClass="org.dnltsk.mapfileplugin.MapfileParserDefinition"/>
+    <lang.syntaxHighlighterFactory language="Mapfile" implementationClass="org.dnltsk.mapfileplugin.highlighter.MapfileSyntaxHighlighterFactory"/>
+    <colorSettingsPage implementation="org.dnltsk.mapfileplugin.highlighter.MapfileColorSettingsPage"/>
     <!--
-    <lang.syntaxHighlighterFactory language="Mapfile"
-                                   implementationClass="org.dnltsk.mapfileplugin.MapfileSyntaxHighlighterFactory"/>
-    <colorSettingsPage implementation="org.dnltsk.mapfileplugin.MapfileColorSettingsPage"/>
     <annotator language="JAVA" implementationClass="org.dnltsk.mapfileplugin.MapfileAnnotator"/>
     <codeInsight.lineMarkerProvider language="JAVA" implementationClass="org.dnltsk.mapfileplugin.MapfileLineMarkerProvider"/>
     <completion.contributor language="Mapfile" implementationClass="org.dnltsk.mapfileplugin.MapfileCompletionContributor"/>
