@@ -2,8 +2,90 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a13429b1-68e7-428f-81d5-f9ca0dd96dce" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gen/org/dnltsk/mapfileplugin/parser/MapfileParser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gen/org/dnltsk/mapfileplugin/psi/MapfileTypes.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gen/org/dnltsk/mapfileplugin/psi/MapfileVisitor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gen/org/dnltsk/mapfileplugin/psi/impl/Foo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/dnltsk/mapfileplugin/Mapfile.flex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/dnltsk/mapfileplugin/MapfileFileType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/dnltsk/mapfileplugin/MapfileFileTypeFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/dnltsk/mapfileplugin/MapfileIcons.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/dnltsk/mapfileplugin/MapfileLanguage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/dnltsk/mapfileplugin/MapfileLexerAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/dnltsk/mapfileplugin/MapfileParserDefinition.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/dnltsk/mapfileplugin/psi/MapfileElementType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/dnltsk/mapfileplugin/psi/MapfileFile.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/dnltsk/mapfileplugin/psi/MapfileTokenType.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/com/simpleplugin/parser/SimpleParser.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/com/simpleplugin/psi/SimpleProperty.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/com/simpleplugin/psi/SimpleTypes.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/com/simpleplugin/psi/SimpleVisitor.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/com/simpleplugin/psi/impl/SimplePropertyImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/simpleplugin/CreatePropertyQuickFix.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/simpleplugin/Simple.bnf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/simpleplugin/Simple.flex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/simpleplugin/SimpleAnnotator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/simpleplugin/SimpleBlock.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/simpleplugin/SimpleChooseByNameContributor.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/simpleplugin/SimpleCodeStyleSettings.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/simpleplugin/SimpleCodeStyleSettingsProvider.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/simpleplugin/SimpleColorSettingsPage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/simpleplugin/SimpleCommenter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/simpleplugin/SimpleCompletionContributor.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/simpleplugin/SimpleFileType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/simpleplugin/SimpleFileTypeFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/simpleplugin/SimpleFilterLexer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/simpleplugin/SimpleFindUsagesProvider.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/simpleplugin/SimpleFoldingBuilder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/simpleplugin/SimpleFormattingModelBuilder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/simpleplugin/SimpleIcons.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/simpleplugin/SimpleIdIndexer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/simpleplugin/SimpleLanguage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/simpleplugin/SimpleLanguageCodeStyleSettingsProvider.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/simpleplugin/SimpleLexerAdapter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/simpleplugin/SimpleLineMarkerProvider.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/simpleplugin/SimpleParserDefinition.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/simpleplugin/SimpleRefactoringSupportProvider.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/simpleplugin/SimpleReference.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/simpleplugin/SimpleReferenceContributor.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/simpleplugin/SimpleStructureViewElement.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/simpleplugin/SimpleStructureViewFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/simpleplugin/SimpleStructureViewModel.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/simpleplugin/SimpleSyntaxHighlighter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/simpleplugin/SimpleSyntaxHighlighterFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/simpleplugin/SimpleTodoIndexer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/simpleplugin/SimpleUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/simpleplugin/icons/jar-gray.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/simpleplugin/psi/SimpleElementFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/simpleplugin/psi/SimpleElementType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/simpleplugin/psi/SimpleFile.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/simpleplugin/psi/SimpleNamedElement.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/simpleplugin/psi/SimpleTokenType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/simpleplugin/psi/impl/SimpleNamedElementImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/simpleplugin/psi/impl/SimplePsiImplUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testData/AnnotatorTestData.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testData/CompleteTestData.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testData/DefaultTestData.simple" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testData/FindUsagesTestData.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testData/FindUsagesTestData.simple" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testData/FoldingTestData.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testData/FormatterTestData.simple" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testData/ParsingTestData.simple" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testData/ParsingTestData.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testData/ReferenceTestData.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testData/RenameTestData.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testData/RenameTestData.simple" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testData/RenameTestDataAfter.simple" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/com/simpleplugin/SimpleCodeInsightTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/com/simpleplugin/SimpleParsingTest.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/simpleplugin/Mapfile.bnf" afterPath="$PROJECT_DIR$/src/org/dnltsk/mapfileplugin/Mapfile.bnf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/simpleplugin/Mapfile.bnf.preview" afterPath="$PROJECT_DIR$/src/org/dnltsk/mapfileplugin/Mapfile.bnf.preview" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/simpleplugin/SimpleLexer.java" afterPath="$PROJECT_DIR$/gen/org/dnltsk/mapfileplugin/MapfileLexer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/simpleplugin/icons/mapserver.png" afterPath="$PROJECT_DIR$/src/org/dnltsk/mapfileplugin/icons/mapserver.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/simpleplugin/Mapfile.bnf" afterPath="$PROJECT_DIR$/src/com/simpleplugin/Mapfile.bnf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/META-INF/plugin.xml" afterPath="$PROJECT_DIR$/resources/META-INF/plugin.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,24 +97,141 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.3876923">
+    <splitter split-orientation="vertical" split-proportion="0.6539235">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="Simple.bnf" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/simpleplugin/Simple.bnf">
+          <file leaf-file-name="Mapfile.bnf" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/org/dnltsk/mapfileplugin/Mapfile.bnf">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="116">
-                  <caret line="12" column="45" lean-forward="false" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+                <state relative-caret-position="94">
+                  <caret line="85" column="7" lean-forward="false" selection-start-line="85" selection-start-column="7" selection-end-line="85" selection-end-column="7" />
+                  <folding>
+                    <element signature="e#0#1109#0" expanded="true" />
+                    <element signature="e#584#1107#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Mapfile.flex" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/org/dnltsk/mapfileplugin/Mapfile.flex">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="82">
+                  <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Mapfile.bnf" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/com/simpleplugin/Mapfile.bnf">
+          <file leaf-file-name="MapfileLexer.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/gen/org/dnltsk/mapfileplugin/MapfileLexer.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="92">
-                  <caret line="25" column="40" lean-forward="false" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+                <state relative-caret-position="98">
+                  <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="MapfileLexerAdapter.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/org/dnltsk/mapfileplugin/MapfileLexerAdapter.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="60">
+                  <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#230#231#0" expanded="true" />
+                    <element signature="e#284#285#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="MapfileFile.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/org/dnltsk/mapfileplugin/psi/MapfileFile.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="343">
+                  <caret line="26" column="23" lean-forward="false" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#428#429#0" expanded="true" />
+                    <element signature="e#489#490#0" expanded="true" />
+                    <element signature="e#553#554#0" expanded="true" />
+                    <element signature="e#600#601#0" expanded="true" />
+                    <element signature="e#646#647#0" expanded="true" />
+                    <element signature="e#683#684#0" expanded="true" />
+                    <element signature="e#735#736#0" expanded="true" />
+                    <element signature="e#778#779#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="MapfileParserDefinition.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/org/dnltsk/mapfileplugin/MapfileParserDefinition.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="137">
+                  <caret line="56" column="32" lean-forward="false" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#794#795#0" expanded="true" />
+                    <element signature="e#842#843#0" expanded="true" />
+                    <element signature="e#900#901#0" expanded="true" />
+                    <element signature="e#935#936#0" expanded="true" />
+                    <element signature="e#990#991#0" expanded="true" />
+                    <element signature="e#1021#1022#0" expanded="true" />
+                    <element signature="e#1084#1085#0" expanded="true" />
+                    <element signature="e#1121#1122#0" expanded="true" />
+                    <element signature="e#1194#1195#0" expanded="true" />
+                    <element signature="e#1236#1237#0" expanded="true" />
+                    <element signature="e#1299#1300#0" expanded="true" />
+                    <element signature="e#1326#1327#0" expanded="true" />
+                    <element signature="e#1390#1391#0" expanded="true" />
+                    <element signature="e#1442#1443#0" expanded="true" />
+                    <element signature="e#1645#1646#0" expanded="true" />
+                    <element signature="e#1708#1709#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="plugin.xml" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/resources/META-INF/plugin.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="135">
+                  <caret line="45" column="23" lean-forward="false" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="idea-flex.skeleton" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/idea-flex.skeleton">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="98">
+                  <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="MapfileFileTypeFactory.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/org/dnltsk/mapfileplugin/MapfileFileTypeFactory.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="137">
+                  <caret line="10" column="77" lean-forward="true" selection-start-line="10" selection-start-column="77" selection-end-line="10" selection-end-column="77" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/.gitignore">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="15">
+                  <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -45,8 +244,8 @@
           <file leaf-file-name="Mapfile.bnf.preview" pinned="false" current-in-tab="true">
             <entry file="mock:///Mapfile.bnf.preview">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="90">
-                  <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="17" />
+                <state relative-caret-position="64">
+                  <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
                   <folding />
                 </state>
               </provider>
@@ -56,12 +255,36 @@
       </split-second>
     </splitter>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>notEmptyString</find>
       <find>status</find>
       <find>on</find>
+      <find>com.simpleplugin</find>
+      <find>org.dnltsk.mapfileplugin.Mapfile</find>
+      <find>language=&quot;Simple&quot;</find>
+      <find>MapfileTokenType</find>
+      <find>com.simpleplugin.parser.Simple</find>
+      <find>s</find>
+      <find>simple</find>
+      <find>le</find>
+      <find>lex</find>
     </findStrings>
+    <replaceStrings>
+      <replace>org.dnltsk.mapfileplugin</replace>
+      <replace>org.dnltsk.mapfileplugin.Mapfile</replace>
+      <replace>language=&quot;Mapfile&quot;</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -74,11 +297,23 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/resources/META-INF/plugin.xml" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/com/simpleplugin/Mapfile.bnf.preview" />
         <option value="/Mapfile.bnf.preview" />
         <option value="$PROJECT_DIR$/src/com/simpleplugin/Mapfile.bnf" />
+        <option value="$PROJECT_DIR$/src/org/dnltsk/mapfileplugin/MapfileIcons.java" />
+        <option value="$PROJECT_DIR$/src/org/dnltsk/mapfileplugin/MapfileFileType.java" />
+        <option value="$PROJECT_DIR$/src/org/dnltsk/mapfileplugin/MapfileLanguage.java" />
+        <option value="$PROJECT_DIR$/src/org/dnltsk/mapfileplugin/MapfileTokenType.java" />
+        <option value="$PROJECT_DIR$/src/org/dnltsk/mapfileplugin/MapfileElementType.java" />
+        <option value="$PROJECT_DIR$/src/org/dnltsk/mapfileplugin/Mapfile.bnf" />
+        <option value="$PROJECT_DIR$/src/org/dnltsk/mapfileplugin/MapfileFileTypeFactory.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/org/dnltsk/mapfileplugin/Mapfile.flex" />
+        <option value="$PROJECT_DIR$/src/org/dnltsk/mapfileplugin/MapfileLexerAdapter.java" />
+        <option value="$PROJECT_DIR$/src/org/dnltsk/mapfileplugin/MapfileFile.java" />
+        <option value="$PROJECT_DIR$/src/org/dnltsk/mapfileplugin/psi/MapfileFile.java" />
+        <option value="$PROJECT_DIR$/src/org/dnltsk/mapfileplugin/MapfileParserDefinition.java" />
+        <option value="$PROJECT_DIR$/resources/META-INF/plugin.xml" />
       </list>
     </option>
   </component>
@@ -142,24 +377,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simpleplugin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="intellij-mapserver-plugin-poc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="intellij-mapserver-plugin-poc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -187,12 +404,13 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="MapfileTokenType&#9;FILE&#9;file:///Users/danielt/projects/intellij-mapserver-plugin-poc/src/org/dnltsk/mapfileplugin/MapfileTokenType.java" />
   </component>
   <component name="PsiViewer.ProjectComponent">
     <option name="HIGHLIGHT" value="false" />
@@ -203,6 +421,12 @@
     <option name="AUTOSCROLL_FROM_SOURCE" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.dnltsk.mapfileplugin.parser" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.dnltsk.mapfileplugin.psi" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/com/simpleplugin" />
     </key>
@@ -610,7 +834,8 @@
     <configuration default="false" name="Plugin" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="intellij-mapserver-plugin-poc" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <alternative-path path="IntelliJ IDEA IU-171.3780.107" alternative-path-enabled="true" />
       <predefined_log_file id="idea.log" enabled="true" />
       <method />
     </configuration>
@@ -626,6 +851,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="a13429b1-68e7-428f-81d5-f9ca0dd96dce" name="Default" comment="" />
@@ -637,7 +865,7 @@
       <workItem from="1491507163508" duration="22000" />
       <workItem from="1491507266484" duration="60000" />
       <workItem from="1491507367652" duration="171000" />
-      <workItem from="1491507581819" duration="14301000" />
+      <workItem from="1491507581819" duration="20433000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit (SimpleLanguage)">
       <created>1490913953762</created>
@@ -667,15 +895,28 @@
       <option name="project" value="LOCAL" />
       <updated>1491525382223</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="LayerObject alpha">
+      <created>1491526456688</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1491526456688</updated>
+    </task>
+    <task id="LOCAL-00006" summary="mapserver logo">
+      <created>1491553608800</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1491553608800</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15137000" />
+    <option name="totallyTimeSpent" value="21269000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="40" y="63" width="1400" height="833" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -690,15 +931,16 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12280702" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25506073" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="PsiViewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32928476" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26067746" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26067746" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928476" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -708,7 +950,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -722,7 +963,8 @@
     <MESSAGE value="first step to Mapfile bnf" />
     <MESSAGE value="second step to Mapfile bnf :D" />
     <MESSAGE value="LayerObject alpha" />
-    <option name="LAST_COMMIT_MESSAGE" value="LayerObject alpha" />
+    <MESSAGE value="mapserver logo" />
+    <option name="LAST_COMMIT_MESSAGE" value="mapserver logo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -749,13 +991,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/META-INF/plugin.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -763,13 +998,6 @@
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="4" lean-forward="true" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -789,18 +1017,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/simpleplugin/Mapfile.bnf.preview">
+    <entry file="file://$PROJECT_DIR$/src/org/dnltsk/mapfileplugin/Mapfile.bnf.preview">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="3" lean-forward="false" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/simpleplugin/Simple.bnf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="12" column="45" lean-forward="false" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
           <folding />
         </state>
       </provider>
@@ -809,9 +1029,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -823,10 +1041,303 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/simpleplugin/Mapfile.bnf">
+    <entry file="file://$PROJECT_DIR$/src/com/simpleplugin/Simple.flex">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="25" column="40" lean-forward="false" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+        <state relative-caret-position="113">
+          <caret line="31" column="103" lean-forward="true" selection-start-line="31" selection-start-column="103" selection-end-line="31" selection-end-column="103" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/simpleplugin/Simple.bnf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-23">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/com/simpleplugin/SimpleCodeInsightTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-15">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/dnltsk/mapfileplugin/icons/jar-gray.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen/com/simpleplugin/parser/SimpleParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2441">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen/com/simpleplugin/psi/SimpleVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen/com/simpleplugin/psi/SimpleTypes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen/org/dnltsk/mapfileplugin/parser/MapfileParserUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/dnltsk/mapfileplugin/MapfileIcons.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="10" column="101" lean-forward="false" selection-start-line="10" selection-start-column="101" selection-end-line="10" selection-end-column="101" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/dnltsk/mapfileplugin/MapfileLanguage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#267#268#0" expanded="false" />
+            <element signature="e#299#300#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/dnltsk/mapfileplugin/psi/MapfileElementType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#331#332#0" expanded="false" />
+            <element signature="e#389#390#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/dnltsk/mapfileplugin/psi/MapfileTokenType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#433#434#0" expanded="true" />
+            <element signature="e#494#495#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen/org/dnltsk/mapfileplugin/psi/SimpleTypes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen/org/dnltsk/mapfileplugin/psi/MapfileVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen/org/dnltsk/mapfileplugin/parser/MapfileParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/dnltsk/mapfileplugin/psi/impl/.gitkeep">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen/org/dnltsk/mapfileplugin/psi/MapfileTypes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen/org/dnltsk/mapfileplugin/psi/impl/Foo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/dnltsk/mapfileplugin/MapfileFileType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="11" column="40" lean-forward="false" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#356#357#0" expanded="false" />
+            <element signature="e#403#404#0" expanded="false" />
+            <element signature="e#461#462#0" expanded="false" />
+            <element signature="e#493#494#0" expanded="false" />
+            <element signature="e#558#559#0" expanded="false" />
+            <element signature="e#604#605#0" expanded="false" />
+            <element signature="e#674#675#0" expanded="false" />
+            <element signature="e#702#703#0" expanded="false" />
+            <element signature="e#759#760#0" expanded="false" />
+            <element signature="e#799#800#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/dnltsk/mapfileplugin/MapfileFileTypeFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="10" column="77" lean-forward="true" selection-start-line="10" selection-start-column="77" selection-end-line="10" selection-end-column="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen/org/dnltsk/mapfileplugin/_MapfileLexer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/idea-flex.skeleton">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/dnltsk/mapfileplugin/Mapfile.bnf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="85" column="7" lean-forward="false" selection-start-line="85" selection-start-column="7" selection-end-line="85" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#1109#0" expanded="true" />
+            <element signature="e#584#1107#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/dnltsk/mapfileplugin/Mapfile.flex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen/org/dnltsk/mapfileplugin/MapfileLexer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/dnltsk/mapfileplugin/MapfileLexerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+            <element signature="e#284#285#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/dnltsk/mapfileplugin/psi/MapfileFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="26" column="23" lean-forward="false" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+            <element signature="e#553#554#0" expanded="true" />
+            <element signature="e#600#601#0" expanded="true" />
+            <element signature="e#646#647#0" expanded="true" />
+            <element signature="e#683#684#0" expanded="true" />
+            <element signature="e#735#736#0" expanded="true" />
+            <element signature="e#778#779#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/dnltsk/mapfileplugin/MapfileParserDefinition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="56" column="32" lean-forward="false" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#794#795#0" expanded="true" />
+            <element signature="e#842#843#0" expanded="true" />
+            <element signature="e#900#901#0" expanded="true" />
+            <element signature="e#935#936#0" expanded="true" />
+            <element signature="e#990#991#0" expanded="true" />
+            <element signature="e#1021#1022#0" expanded="true" />
+            <element signature="e#1084#1085#0" expanded="true" />
+            <element signature="e#1121#1122#0" expanded="true" />
+            <element signature="e#1194#1195#0" expanded="true" />
+            <element signature="e#1236#1237#0" expanded="true" />
+            <element signature="e#1299#1300#0" expanded="true" />
+            <element signature="e#1326#1327#0" expanded="true" />
+            <element signature="e#1390#1391#0" expanded="true" />
+            <element signature="e#1442#1443#0" expanded="true" />
+            <element signature="e#1645#1646#0" expanded="true" />
+            <element signature="e#1708#1709#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/META-INF/plugin.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="45" column="23" lean-forward="false" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
           <folding />
         </state>
       </provider>

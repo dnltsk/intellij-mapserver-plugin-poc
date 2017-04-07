@@ -1,19 +1,18 @@
 <idea-plugin>
-  <id>com.simpleplugin.unique.plugin.id</id>
-  <name>Simple</name>
-  <version>1.0</version>
-  <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">YourCompany</vendor>
+  <id>org.dnltsk.mapfileplugin</id>
+  <name>Mapfile</name>
+  <version>0.0.1</version>
+  <vendor email="daniel.teske@gmail.com">dnltsk</vendor>
 
   <description><![CDATA[
-      Enter short description for your plugin here.<br>
-      <small>most HTML tags may be used</small>
+      UMN Mapserver Mapfile Editor support.
       ]]></description>
 
   <change-notes><![CDATA[
-      Add change notes here.<br>
-      <small>most HTML tags may be used</small>
-      ]]>
-  </change-notes>
+      <ul>
+        <li>0.0.1 very basic Mapfile support</li>
+      </ul>
+      ]]></change-notes>
 
   <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
   <idea-version since-build="107.105"/>
@@ -38,25 +37,26 @@
 
   <extensions defaultExtensionNs="com.intellij">
     <!-- Add your extensions here -->
-    <fileTypeFactory implementation="com.simpleplugin.SimpleFileTypeFactory"/>
-    <lang.parserDefinition language="Simple" implementationClass="com.simpleplugin.SimpleParserDefinition"/>
-    <lang.syntaxHighlighterFactory key="Simple"
-                                   language="Simple"
-                                   implementationClass="com.simpleplugin.SimpleSyntaxHighlighterFactory"/>
-    <colorSettingsPage implementation="com.simpleplugin.SimpleColorSettingsPage"/>
-    <annotator language="JAVA" implementationClass="com.simpleplugin.SimpleAnnotator"/>
-    <codeInsight.lineMarkerProvider language="JAVA" implementationClass="com.simpleplugin.SimpleLineMarkerProvider"/>
-    <completion.contributor language="Simple" implementationClass="com.simpleplugin.SimpleCompletionContributor"/>
-    <psi.referenceContributor implementation="com.simpleplugin.SimpleReferenceContributor"/>
-    <lang.findUsagesProvider language="Simple" implementationClass="com.simpleplugin.SimpleFindUsagesProvider"/>
-    <lang.refactoringSupport language="Simple" implementationClass="com.simpleplugin.SimpleRefactoringSupportProvider"/>
-    <lang.foldingBuilder language="JAVA" implementationClass="com.simpleplugin.SimpleFoldingBuilder"/>
-    <gotoSymbolContributor implementation="com.simpleplugin.SimpleChooseByNameContributor"/>
-    <lang.psiStructureViewFactory language="Simple" implementationClass="com.simpleplugin.SimpleStructureViewFactory"/>
-    <lang.formatter language="Simple" implementationClass="com.simpleplugin.SimpleFormattingModelBuilder"/>
-    <codeStyleSettingsProvider implementation="com.simpleplugin.SimpleCodeStyleSettingsProvider"/>
-    <langCodeStyleSettingsProvider implementation="com.simpleplugin.SimpleLanguageCodeStyleSettingsProvider"/>
-    <lang.commenter language="Simple" implementationClass="com.simpleplugin.SimpleCommenter"/>
-    <todoIndexer filetype="Simple file" implementationClass="com.simpleplugin.SimpleTodoIndexer"/>
+    <fileTypeFactory implementation="org.dnltsk.mapfileplugin.MapfileFileTypeFactory"/>
+    <lang.parserDefinition language="Mapfile" implementationClass="org.dnltsk.mapfileplugin.MapfileParserDefinition"/>
+    <!--
+    <lang.syntaxHighlighterFactory language="Mapfile"
+                                   implementationClass="org.dnltsk.mapfileplugin.MapfileSyntaxHighlighterFactory"/>
+    <colorSettingsPage implementation="org.dnltsk.mapfileplugin.MapfileColorSettingsPage"/>
+    <annotator language="JAVA" implementationClass="org.dnltsk.mapfileplugin.MapfileAnnotator"/>
+    <codeInsight.lineMarkerProvider language="JAVA" implementationClass="org.dnltsk.mapfileplugin.MapfileLineMarkerProvider"/>
+    <completion.contributor language="Mapfile" implementationClass="org.dnltsk.mapfileplugin.MapfileCompletionContributor"/>
+    <psi.referenceContributor implementation="org.dnltsk.mapfileplugin.MapfileReferenceContributor"/>
+    <lang.findUsagesProvider language="Mapfile" implementationClass="org.dnltsk.mapfileplugin.MapfileFindUsagesProvider"/>
+    <lang.refactoringSupport language="Mapfile" implementationClass="org.dnltsk.mapfileplugin.MapfileRefactoringSupportProvider"/>
+    <lang.foldingBuilder language="JAVA" implementationClass="org.dnltsk.mapfileplugin.MapfileFoldingBuilder"/>
+    <gotoSymbolContributor implementation="org.dnltsk.mapfileplugin.MapfileChooseByNameContributor"/>
+    <lang.psiStructureViewFactory language="Mapfile" implementationClass="org.dnltsk.mapfileplugin.MapfileStructureViewFactory"/>
+    <lang.formatter language="Mapfile" implementationClass="org.dnltsk.mapfileplugin.MapfileFormattingModelBuilder"/>
+    <codeStyleSettingsProvider implementation="org.dnltsk.mapfileplugin.MapfileCodeStyleSettingsProvider"/>
+    <langCodeStyleSettingsProvider implementation="org.dnltsk.mapfileplugin.MapfileLanguageCodeStyleSettingsProvider"/>
+    <lang.commenter language="Mapfile" implementationClass="org.dnltsk.mapfileplugin.MapfileCommenter"/>
+    <todoIndexer filetype="Mapfile file" implementationClass="org.dnltsk.mapfileplugin.MapfileTodoIndexer"/>
+    -->
   </extensions>
 </idea-plugin>
